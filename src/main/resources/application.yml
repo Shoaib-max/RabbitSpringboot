@@ -1,0 +1,25 @@
+
+server:
+  port: 9091
+
+spring:
+  rabbitmq:
+    host: shoaib.dpdns.org
+    port: 5672               
+    username: admin
+    password: shoaib
+
+rabbitmq:
+  queue: demoQueue
+  exchange: demoExchange
+  routing-key: demoRoutingKey
+
+mongo:
+  connection:
+    url: mongodb://localhost:27017
+  database:
+    name : myapp
+
+
+    
+

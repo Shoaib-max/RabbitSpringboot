@@ -7,7 +7,7 @@ spring:
     host: shoaib.dpdns.org
     port: 5672               
     username: admin
-    password: shoaib
+    password: pasword
 
 rabbitmq:
   queue: demoQueue
